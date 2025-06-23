@@ -7,7 +7,7 @@ def process_grch37():
     output_dir = os.path.join('output', 'grch37')
 
     # Read the comparison file
-    df = pd.read_csv(os.path.join(output_dir, 'TEMP_compare_result_all_enst.txt'), sep='\t')
+    df = pd.read_csv(os.path.join(output_dir, 'compare_result_extended_grch37.txt'), sep='\t')
 
     # Function to check if all values in a row are the same (ignoring empty strings)
     def are_values_different(row, columns):

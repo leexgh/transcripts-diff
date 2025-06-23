@@ -10,3 +10,7 @@ ensembl_gtf_grch38: https://ftp.ensembl.org/pub/current/gtf/homo_sapiens/Homo_sa
 ensembl_gtf_grch37: https://ftp.ensembl.org/pub/grch37/current/gtf/homo_sapiens/Homo_sapiens.GRCh37.87.gtf.gz
 refseq_gene2accession: https://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2accession.gz
 mane_transcript_summary: https://ftp.ncbi.nlm.nih.gov/refseq/MANE/MANE_human/current/MANE.GRCh38.v1.4.summary.txt.gz
+
+Run compare_transcript.py first, this script generates the compare_result_grchxx.txt
+For grch37, run protein_length.ipynb to add additional columns like protein sequence and sequence length
+Next, run find_difference.py to sort and list different transcripts
